@@ -47,3 +47,63 @@ Para executar o sistema em sua máquina local, é necessário ter instalado:
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar sugestões, reportar bugs ou propor melhorias para o sistema.
+
+
+# Medical Clinic and Exams System
+
+This is the repository of the Medical Clinic and Exams System project, developed in Java SE using MySQL Database. The system follows MVC architecture patterns and SOLID principles, also adhering to good programming practices and clean code.
+
+## Features
+
+The system allows management of registrations, scheduling, and consultations related to a medical clinic and exams. Below are the main features:
+
+### Registrations
+
+- **Types of Exams:** Allows registration of different types of exams, such as imaging exam, blood test, X-ray exam, among others.
+- **Doctors:** Registration of doctors responsible for exams and patient care.
+- **Patients:** Registration of patients who will be attended at the clinic.
+
+### Scheduling
+
+- **Exams:** Enables scheduling exams for patients, ensuring that the same patient cannot undergo two exams simultaneously. The times are scheduled with a 15-minute interval.
+
+### Consultations
+
+- **All Patients:** Lists all patients registered at the clinic.
+- **Birthday Patients:** Presents patients who are celebrating their birthday today or this month.
+- **All Types of Exams:** Displays all types of exams available at the clinic.
+- **Scheduled Exams:** Shows exams that are scheduled for execution.
+- **Completed Exams:** Lists exams that have already been completed.
+- **Exams per Patient:** Allows viewing exams performed by a specific patient.
+
+### Other Observations
+
+- **Consultation Export:** Consultations can be exported to a txt file for further analysis or storage.
+
+## Requirements
+
+To run the system on your local machine, you need to have installed:
+
+- Java SE
+- MySQL Database
+- Java development IDE (optional)
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Import the project into your Java development IDE, if preferred.
+3. Configure the connection with the MySQL Database by editing the `application.properties` file.
+4. Execute the provided SQL script to create the database schema and insert initial data, if necessary.
+5. Compile and run the project.
+
+## Contribution
+
+Contributions are welcome! Feel free to submit suggestions, report bugs, or propose improvements to the system.
+
+## Authors
+
+This project was developed by [Developer's Name] and [Developer's Name].
+
+## License
+
+This project is licensed under the [License XYZ]. See the LICENSE file for more details.
